@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Pins Sans";
+    src: url("font/PinsSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pins Sans";
+    src: url("font/PinsSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Pins Sans";
+    src: url("font/PinsSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-family: Pinterest Sans;
+    src: url("Font-sans/Pin-Sans-Regular.ttf") format("truetype");
+}
+
+menu{
+     font-family: "Pins Sans", sans-serif;
+     font-weight: 500;
+}
+body{
+
+    margin:0;
+    font-family: "Pins Sans", sans-serif;
+    src: url("Font-sans/Pin-Sans-Regular.ttf") format("truetype");
+}
