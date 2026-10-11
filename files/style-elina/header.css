@@ -1,0 +1,199 @@
+.header{
+    display:flex;
+    background-color:white;
+    flex-direction: row;
+    height:79px;
+    align-items: center;
+    justify-content: space-between;
+    top:0px;
+    position: fixed;
+    right:0;
+    left:64px;
+    z-index:10;
+    
+}
+.left-section{
+    flex:1;
+    align-items: center;
+    left:0;
+    top:0;
+    display: flex;
+    border:none;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 16px;
+    
+}
+.left-section:hover{
+    filter: brightness(95%) ;
+}
+.search-container{
+    display: inline-block;
+    height:47px;
+    width: 40px;
+    background-color:rgb(229, 229, 224) ;
+    margin-right: 0;
+    border-radius: 10px;
+
+    
+    
+}
+.search-container img{
+    width: 15px;
+    padding: 15px 0px 4px 12px;
+
+    }
+
+.search{
+    flex:1;
+    height:45px;
+    border: none;
+    background-color:rgb(229, 229, 224) ;
+    margin-left: -1px;
+    border-width: 0;
+    padding-left: 10px;
+    margin-left:-11px;
+    width: 100px;
+}
+.search::placeholder{
+    font-family:Arial;
+    font-size:15px;
+}
+
+
+.mic-cam-container{
+    display:flex;
+    background-color: rgb(229, 229, 224);
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+}
+
+.cam-button{
+    height:47px;
+    width: 46px;
+    top:0;
+    left:-1px;
+    border: none;
+    background-color:rgb(229, 229, 224) ;
+    border-radius: 10px;
+
+}
+
+.cam-button:hover{
+    background-color: rgb(246, 246, 243);
+}
+
+.mic-button{
+    height: 47px;
+    width:45px;
+    border: none;
+    background-color:rgb(229, 229, 224);
+    border-radius: 10px;
+    margin-left:-1px;
+    margin-right: 2px;
+
+}
+
+.mic-button:hover{
+    background-color: rgb(246, 246, 243);
+}
+
+.cam-button, 
+.mic-button,
+.mid-section,
+.right-section{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cam-button .tooltip,
+.mic-button .tooltip,
+.mid-section .tooltip
+{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Pins Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    top:55px;
+    opacity: 0;
+    transition: opacity 0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 1200;
+
+}
+
+.right-section .tooltip
+{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Pins Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    top:41px;
+    opacity: 0;
+    transition: opacity 0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.mic-button:hover .tooltip,
+.cam-button:hover .tooltip,
+.mid-section:hover .tooltip,
+.right-section:hover .tooltip{
+    opacity: 1;
+}
+
+.mid-section{
+    background-color: white;
+    margin-right: 1px ;
+    border-radius: 10px;
+    width:45px;
+    height: 47px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:4px;
+    transition: 0.15s;
+    
+}
+.mid-section:hover{
+    background-color: rgb(246, 246, 243);;
+}
+
+
+.pp-img{
+    width: 34px;
+    border-radius: 17px;
+    padding-right: 1px;
+
+}
+
+.right-section{
+    background-color: white;
+    border-radius: 8px;
+    width: 22px;
+    height: 22px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s;
+    margin-right: 15px;
+}
+.right-section:hover{
+    background-color: rgb(246, 246, 243);
+}
